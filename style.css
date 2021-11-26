@@ -6,10 +6,39 @@
 
 /* Dimensiones y maquetacion*/
 .contenedor {
-    width: 650px;
+    width: 750px;
     height: 800px;
     margin: auto;
     padding: 10px;
+}
+.cabecera__busqueda{
+    border: #000000 solid 1px;
+    display:inline;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    vertical-align: middle;
+}
+.cabecera__imagen--izquierda{
+    width: 200px;
+    height: 140px;
+    border: 1px black solid;
+    float:left;
+}
+.cabecera__imagen--derecha{
+    width: 500px;
+    height: 140px;
+    border: 1px black solid;
+    float:right;
+}
+.separador10px{
+    height: 10px;
+    clear:both;
+}
+
+.cabecera__busqueda--lupa{
+    width: 20px;
+   
 }
 
 form {
@@ -23,12 +52,53 @@ img {
     vertical-align: middle;
 }
 
-button {
+.cabecera__boton {
     padding: 6px;
     width: 100px;
 }
 
+.cabecera__busqueda--texto{
+    border: 0px;
+    vertical-align: middle;
+}
+
+.navegacion__boton{
+    width: 100%;
+    height: 100%;
+}
+
+/* Fake Table*/
+
+.table{
+    display:table;
+    margin: auto;
+    width: 100%;
+}
+.tr {
+    display:table-row;
+}
+.td {
+    display:table-cell;
+    border: 2px #0000ff solid;
+    background-color: #4f4fff;
+    vertical-align: middle;
+    text-align: center;
+    height: 40px;
+}
+
+
 /*Textos, colores, aspecto*/
+
+.navegacion__boton{
+    background-color: #0000ff;
+    color: #ffffff;
+    font-weight: bold;
+    border:0px;
+    text-align: center;
+}
+.navegacion__boton:hover{
+    background-color: #4646fa;
+}
 
 .contenedor {
     background-color: #c3c3c3;

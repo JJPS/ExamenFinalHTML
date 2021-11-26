@@ -1,36 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="contenedor">
-        <header>
-            
-            <a href=""><img alt="Twitter" src="./Imagenes/twitter.png"></a>
-            <a href=""><img alt="Facebook" src="./Imagenes/facebook.png"></a>
-            <a href=""><img alt="RRSS" src="./Imagenes/rss.png"></a>
-            <button type="button">Iniciar Sesion</button>
-            <button type="button">Registro</button>
-            <button type="button">Newsletter</button>
-            <form>
-                <input type="text">
-            </form>
-        </header>
-        
-        <nav>
-
-        </nav>
-        <main>
-
-        </main>
-        <footer>
-
-        </footer>
+      <header class="cabecera">
+        <a href=""><img alt="Twitter" src="./Imagenes/twitter.png" /></a>
+        <a href=""><img alt="Facebook" src="./Imagenes/facebook.png" /></a>
+        <a href=""><img alt="RRSS" src="./Imagenes/rss.png" /></a>
+        <button class="cabecera__boton" type="button">Iniciar Sesion</button>
+        <button class="cabecera__boton" type="button">Registro</button>
+        <button class="cabecera__boton"type="button">Newsletter</button>
+        <form>
+          <div class="cabecera__busqueda">
+            <img class="cabecera__busqueda--lupa" src="./Imagenes/search.png" />
+            <input type="text" class="cabecera__busqueda--texto" />
+          </div>
+        </form>
+        <div class="separador10px"></div>
+        <div class="cabecera__imagen--izquierda"></div>
+        <div class="cabecera__imagen--derecha"></div>
+      </header>
+      <div class="separador10px"></div>
+      <nav>
+        <div class="table navegacion">
+          <div class="tr">
+            <div class="td">
+              <select class="navegacion__boton">
+                <option value="volvo">Educacion</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+            </div>
+            <div class="td">
+              <select class="navegacion__boton">
+                <option value="volvo">Tecnologia</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+            </div>
+            <div class="td">
+              <button class="navegacion__boton">Qué hacemos</button>
+            </div>
+            <div class="td">
+              <button class="navegacion__boton">Quiénes somos</button>
+            </div>
+            <div class="td">
+              <button class="navegacion__boton">Contacto</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="separador10px"></div>
+      <main></main>
+      <footer></footer>
     </div>
-</body>
+  </body>
 </html>
