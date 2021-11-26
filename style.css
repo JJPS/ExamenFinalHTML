@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Dimensiones y maquetacion*/
+.contenedor {
+    width: 650px;
+    height: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+form {
+    display: inline;
+}
+
+img {
+    width: 40px;
+    margin: 2px;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+button {
+    padding: 6px;
+    width: 100px;
+}
+
+/*Textos, colores, aspecto*/
+
+.contenedor {
+    background-color: #c3c3c3;
+}
